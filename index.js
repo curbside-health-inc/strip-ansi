@@ -1,4 +1,4 @@
-import ansiRegex from 'ansi-regex';
+const ansiRegex = require('ansi-regex');
 
 const regex = ansiRegex();
 

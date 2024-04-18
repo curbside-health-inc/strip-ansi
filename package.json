@@ -1,9 +1,9 @@
 {
-	"name": "strip-ansi",
+	"name": "@curbside-health-inc/strip-ansi",
 	"version": "7.1.0",
 	"description": "Strip ANSI escape codes from a string",
 	"license": "MIT",
-	"repository": "chalk/strip-ansi",
+	"repository": "curbside-health-inc/strip-ansi",
 	"funding": "https://github.com/chalk/strip-ansi?sponsor=1",
 	"author": {
 		"name": "Sindre Sorhus",
@@ -46,10 +46,8 @@
 		"command-line",
 		"text"
 	],
-	"dependencies": {
-		"ansi-regex": "^6.0.1"
-	},
 	"devDependencies": {
+		"ansi-regex": "^6.0.1",
 		"ava": "^3.15.0",
 		"tsd": "^0.17.0",
 		"xo": "^0.44.0"
